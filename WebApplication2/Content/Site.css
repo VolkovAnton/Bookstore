@@ -1,8 +1,48 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    font-size: 13px;
+    font-family: Verdana, Arial, Helvetica, Sans-Serif;
+    
+    background: url("/Image/books.jpg") no-repeat;
+    
+    background-size: cover;
+    padding-left: 40px;
+}
+nav {
+    display: block;
 }
 
+.menu {
+    padding-left: 10px;
+}
+
+    .menu ul {
+        list-style: none;
+    }
+
+    .menu li {
+        display: inline;
+    }
+
+    .menu a:hover {
+        color: red;
+    }
+
+table {
+    vertical-align: middle;
+    text-align: left;
+}
+
+.header {
+    font-weight: bold;
+}
+
+td {
+    padding-right: 10px;
+}
+
+input {
+    width: 150px;
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
